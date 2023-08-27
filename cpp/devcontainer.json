@@ -1,0 +1,17 @@
+{
+    "name": "C++",
+    "image": "gcc:13.2.0-bookworm",
+    "postCreateCommand": "curl -SLk https://github.com/Kitware/CMake/releases/download/v3.27.4/cmake-3.27.4-linux-x86_64.tar.gz | tar xf --strip-components 1 -C /usr/local",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "matepek.vscode-catch2-test-adapter",
+                "xaver.clang-format",
+                "jbenden.c-cpp-flylint",
+                "twxs.cmake"
+            ]
+        }
+    }
+}

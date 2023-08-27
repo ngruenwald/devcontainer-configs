@@ -1,0 +1,14 @@
+{
+    "name": "Ansible",
+    "image": "localhost/ansible:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.ansible",
+                "samuelcolvin.jinjahtml",
+                "oderwat.indent-rainbow",
+                "redhat.vscode-yaml"
+            ]
+        }
+    }
+}

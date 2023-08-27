@@ -1,0 +1,19 @@
+{
+    "name": "Python",
+    "image": "python:3.11.5-slim-bookworm",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "oderwat.indent-rainbow",
+                "charliermarsh.ruff",
+                "njpwerner.autodocstring",
+                "samuelcolvin.jinjahtml",
+                "tamasfe.even-better-toml",
+                "redhat.vscode-yaml"
+            ]
+        }
+    }
+}
