@@ -1,6 +1,6 @@
 {
     "name": "Ansible",
-    "image": "localhost/ansible:latest",
+    "image": "ghcr.io/ngruenwald/ansible:main",
     "customizations": {
         "vscode": {
             "extensions": [
